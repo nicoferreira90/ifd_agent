@@ -4,7 +4,7 @@ AI-powered agent for automating Initial Flood Determination (IFD) lookups on the
 
 ## Overview
 
-The IFD Agent automates the manual Initial Flood Determination pipeline (Job Aid pp. 67-70):
+The IFD Agent automates the manual Initial Flood Determination pipeline:
 
 1. Read the subject property address from the Encompass loan record.
 2. Drive `msc.fema.gov` with Playwright, type the address into the FEMA search bar, and capture the rendered map page as `FLOODSEARCH.pdf`.
